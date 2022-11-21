@@ -49,7 +49,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
     max-width: 100%;
 }
 
@@ -67,7 +66,7 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 section {
@@ -86,4 +85,76 @@ nav a {
     display: inline-block;
     padding: 1% 0;
     width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+/*CTA Section*/
+.cta {
+    position: relative;
+}
+
+.text, .image {
+    display: inline-block;
+}
+.image {
+    width: 30%;
+}
+.round {
+    border-radius: 50%;
+}
+.text {
+    width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 150px;
+}
+
+/*Main Section*/
+.main {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 2%;
+}
+
+/*Info Section*/
+.info div {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*BackGroundImage*/
+.bg-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+
+footer {
+    background-color: #F9E7DC;
 }
